@@ -1,7 +1,7 @@
 {
-  "name": "spapi-wrapper",
+  "name": "nekoapi-wrapper",
   "version": "1.0.0",
-  "description": "A wrapper made for the SP-API.",
+  "description": "A wrapper made for the neko api.",
   "main": "index.js",
   "dependencies": {
     "node-fetch": "^2.6.1"
@@ -14,9 +14,9 @@
   "license": "MIT",
   "keywords": [
     "api",
-    "spapi",
-    "sp",
-    "sp-api",
-    "spapi wrapper"
+    "neko",
+    "discord",
+    "json",
+    "nekoapi wrapper"
   ]
 }
