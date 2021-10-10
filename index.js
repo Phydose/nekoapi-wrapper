@@ -45,11 +45,20 @@ async function neko2() {
         console.log("[nekoapi: neko2()]: Something broke.")
     }
 }
+async function animequote() {
+    try {
+    const fetched = await fetch(fun + "/animequote")
+    return (await fetched.json())
+    } catch(error) {
+        console.log("[nekoapi: animequote()]: Something broke.")
+    }
+}
 // end of image endpoints
 module.exports = {
    neko,
    waifu,
    neko2,
    ascii,
-   owoify
+   owoify,
+   animequote
 }
