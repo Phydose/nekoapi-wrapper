@@ -2,7 +2,7 @@ const { error } = require('console')
 const fetch = require('node-fetch')
 const baseurl = "https://api.phydo.repl.co"
 const fun = baseurl + "/fun"
-const image = baseurl + "/img"
+const img = baseurl + "/img"
 const txt = baseurl + "/text"
 // Misc Endpoints
 async function neko() {
